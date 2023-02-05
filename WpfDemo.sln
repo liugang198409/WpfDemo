@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.33214.272
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GMapDemo", "GMapDemo\GMapDemo.csproj", "{4B3626CF-56CD-49D5-9324-6EF8024FCE25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMapDemo", "BingMapDemo\BingMapDemo.csproj", "{EE38DA96-D1A3-4DF6-B56B-7D545E67F703}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4B3626CF-56CD-49D5-9324-6EF8024FCE25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B3626CF-56CD-49D5-9324-6EF8024FCE25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B3626CF-56CD-49D5-9324-6EF8024FCE25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE38DA96-D1A3-4DF6-B56B-7D545E67F703}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE38DA96-D1A3-4DF6-B56B-7D545E67F703}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE38DA96-D1A3-4DF6-B56B-7D545E67F703}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE38DA96-D1A3-4DF6-B56B-7D545E67F703}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
