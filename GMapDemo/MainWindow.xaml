@@ -1,0 +1,13 @@
+﻿<Window x:Class="GMapDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:src="clr-namespace:GMapDemo"
+        xmlns:local="clr-namespace:GMapDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <src:MapControl Grid.Row="0" x:Name="MainMap" Zoom="13" MaxZoom="24" MinZoom="1"/>
+    </Grid>
+</Window>
