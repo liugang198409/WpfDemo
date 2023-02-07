@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BingMapDemo", "BingMapDemo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FaceDetectionDemo", "FaceDetectionDemo\FaceDetectionDemo.csproj", "{92138803-D909-4134-A054-D5E877851E38}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DDemo", "3DDemo\3DDemo.csproj", "{0CD07C7B-37FF-4E9F-839B-ABF569D752F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DSimpleDemo", "3DSimpleDemo\3DSimpleDemo.csproj", "{879B4DFA-0287-461A-820F-65F983A33567}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{92138803-D909-4134-A054-D5E877851E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{92138803-D909-4134-A054-D5E877851E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{92138803-D909-4134-A054-D5E877851E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD07C7B-37FF-4E9F-839B-ABF569D752F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD07C7B-37FF-4E9F-839B-ABF569D752F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD07C7B-37FF-4E9F-839B-ABF569D752F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CD07C7B-37FF-4E9F-839B-ABF569D752F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{879B4DFA-0287-461A-820F-65F983A33567}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{879B4DFA-0287-461A-820F-65F983A33567}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{879B4DFA-0287-461A-820F-65F983A33567}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{879B4DFA-0287-461A-820F-65F983A33567}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

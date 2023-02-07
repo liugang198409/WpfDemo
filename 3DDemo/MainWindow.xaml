@@ -1,0 +1,41 @@
+﻿<Window x:Class="_3DDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:_3DDemo"
+        xmlns:hv="http://helix-toolkit.org/wpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <!--加载模型：设置光源、相机、坐标网格-->
+        <hv:HelixViewport3D Name="viewPort3D" ZoomExtentsWhenLoaded="True"
+                            ShowViewCube="false" ShowCoordinateSystem="True"
+                            CoordinateSystemLabelForeground="White"
+                            CoordinateSystemVerticalPosition="Center"
+                            CoordinateSystemHorizontalPosition="Right"
+                            
+                            CoordinateSystemHeight="50" 
+                            CoordinateSystemWidth="50"
+                            
+                            RenderOptions.EdgeMode="Unspecified"
+                            BorderBrush="White"
+                            BorderThickness="0"
+                            ShowFrameRate="False"
+                            ShowCameraInfo="True"
+                            IsManipulationEnabled="True"
+                            Background="Transparent"
+                            >
+            <!-- Remember to add light to the scene -->
+            <hv:HelixViewport3D.DefaultCamera>
+                <PerspectiveCamera LookDirection="-587.475,-330.619,-229.365" Position="587.475,330.619,256.278" UpDirection="-0.248,-0.139,0.959" FieldOfView="45" NearPlaneDistance="0.1"/>
+            </hv:HelixViewport3D.DefaultCamera>
+            <hv:SunLight/>
+
+            <hv:GridLinesVisual3D Width="1000" Length="1000" MinorDistance="50" MajorDistance="50" Thickness="1" Fill="#E5CFCECE"/>
+        </hv:HelixViewport3D>
+
+    </Grid>
+
+</Window>
