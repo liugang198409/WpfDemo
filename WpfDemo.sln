@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DDemo", "3DDemo\3DDemo.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DSimpleDemo", "3DSimpleDemo\3DSimpleDemo.csproj", "{879B4DFA-0287-461A-820F-65F983A33567}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DCoreWpfDemo", "3DCoreWpfDemo\3DCoreWpfDemo.csproj", "{08EAFDB9-C595-444E-B31A-E20970943F86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{879B4DFA-0287-461A-820F-65F983A33567}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{879B4DFA-0287-461A-820F-65F983A33567}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{879B4DFA-0287-461A-820F-65F983A33567}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08EAFDB9-C595-444E-B31A-E20970943F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08EAFDB9-C595-444E-B31A-E20970943F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08EAFDB9-C595-444E-B31A-E20970943F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08EAFDB9-C595-444E-B31A-E20970943F86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
