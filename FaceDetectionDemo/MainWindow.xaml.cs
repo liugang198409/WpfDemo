@@ -102,9 +102,6 @@ namespace FaceDetectionDemo
             }
         }
 
-
-
-
         public MainWindow()
         {
             InitializeComponent();
@@ -232,6 +229,7 @@ namespace FaceDetectionDemo
                         {
                             Cv2.Rectangle(matImage, faces[0], Scalar.Green, 2);
                         }
+                        //Cv2.Canny(result, matImage, 10, 200, 3);
                         result.Dispose();
                     }
                 }));
