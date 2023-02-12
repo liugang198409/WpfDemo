@@ -104,10 +104,10 @@ namespace OpenCvDemo
                     //Mat threshold = new Mat();
                     //Cv2.Threshold(gray, threshold, 50, 255, ThresholdTypes.Binary);
                     //图像旋转
-                    Mat flip = new Mat();
-                    Cv2.Flip(matImage, flip, FlipMode.X);
+                    //Mat flip = new Mat();
+                    //Cv2.Flip(matImage, flip, FlipMode.X);
 
-                    var converted = Convert(BitmapConverter.ToBitmap(flip));
+                    var converted = Convert(BitmapConverter.ToBitmap(gray));
                     imgViewport.Source = converted;
                 }));
             }
