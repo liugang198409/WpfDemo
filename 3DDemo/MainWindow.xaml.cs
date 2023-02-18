@@ -28,9 +28,21 @@ namespace _3DDemo
             //DiffuseMaterial diffMat = new DiffuseMaterial(new SolidColorBrush(Colors.White));
             //geometryModel3D.Material = diffMat;
             //ViewPort3D进行显示
+           
             ModelVisual3D modelVisual3d1 = new ModelVisual3D();
             modelVisual3d1.Content = initGroup1;
+            //initGroup1.GetTransform(new RotateTransform3D(new AxisAngleRotation3D(new Vector3D(0, 1, 0), 1)));
             viewPort3D.Children.Add(modelVisual3d1);
+            //var axis = new Vector3D(0, 0, 1);
+            //var angle = 40;
+            //var matrix = modelVisual3d1.Transform.Value;
+            //matrix.Rotate(new Quaternion(axis, angle));
+            //modelVisual3d1.Transform = new MatrixTransform3D(matrix);
+            MV3D.Transform = new RotateTransform3D();
+            new AxisAngleRotation3D();
+
+
+
             ModelVisual3D modelVisual3d2 = new ModelVisual3D();
             modelVisual3d2.Content = initGroup2;
             viewPort3D.Children.Add(modelVisual3d2);

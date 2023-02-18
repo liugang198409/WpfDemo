@@ -469,19 +469,7 @@ namespace RobotArmDemo
             geom.Transform = F;
         }
 
-        private void joint_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
-        {
-            if (isAnimating)
-                return;
-
-            joints[0].angle = joint1.Value;
-            joints[1].angle = joint2.Value;
-            joints[2].angle = joint3.Value;
-            joints[3].angle = joint4.Value;
-            joints[4].angle = joint5.Value;
-            joints[5].angle = joint6.Value;
-            execute_fk();
-        }
+        
 
 
         private void CheckBox_StateChanged(object sender, RoutedEventArgs e)
@@ -496,17 +484,7 @@ namespace RobotArmDemo
         }
 
 
-        /**
-         * This methodes execute the FK (Forward Kinematics). It starts from the first joint, the base.
-         * */
-        private void execute_fk()
-        {
-            /** Debug sphere, it takes the x,y,z of the textBoxes and update its position
-             * This is useful when using x,y,z in the "new Point3D(x,y,z)* when defining a new RotateTransform3D() to check where the joints is actually  rotating */
-            double[] angles = { joints[0].angle, joints[1].angle, joints[2].angle, joints[3].angle, joints[4].angle, joints[5].angle };
-            ForwardKinematics(angles);
-            updateSpherePosition();
-        }
+        
 
         private Color changeModelColor(Joint pJoint, Color newColor)
         {
@@ -707,6 +685,31 @@ namespace RobotArmDemo
             return Math.Sqrt(Math.Pow((point.X - target.X), 2.0) + Math.Pow((point.Y - target.Y), 2.0) + Math.Pow((point.Z - target.Z), 2.0));
         }
 
+        private void joint_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            if (isAnimating)
+                return;
+
+            joints[0].angle = joint1.Value;
+            joints[1].angle = joint2.Value;
+            joints[2].angle = joint3.Value;
+            joints[3].angle = joint4.Value;
+            joints[4].angle = joint5.Value;
+            joints[5].angle = joint6.Value;
+            execute_fk();
+        }
+
+        /**
+         * This methodes execute the FK (Forward Kinematics). It starts from the first joint, the base.
+         * */
+        private void execute_fk()
+        {
+            /** Debug sphere, it takes the x,y,z of the textBoxes and update its position
+             * This is useful when using x,y,z in the "new Point3D(x,y,z)* when defining a new RotateTransform3D() to check where the joints is actually  rotating */
+            double[] angles = { joints[0].angle, joints[1].angle, joints[2].angle, joints[3].angle, joints[4].angle, joints[5].angle };
+            ForwardKinematics(angles);
+            updateSpherePosition();
+        }
 
         public Vector3D ForwardKinematics(double[] angles)
         {
@@ -748,7 +751,8 @@ namespace RobotArmDemo
             //as before
             F5 = new Transform3DGroup();
             T = new TranslateTransform3D(0, 0, 0);
-            R = new RotateTransform3D(new AxisAngleRotation3D(new Vector3D(joints[4].rotAxisX, joints[4].rotAxisY, joints[4].rotAxisZ), angles[4]), new Point3D(joints[4].rotPointX, joints[4].rotPointY, joints[4].rotPointZ));
+            R = new RotateTransform3D(new AxisAngleRotation3D(new Vector3D(joints[4].rotAxisX, joints[4].rotAxisY, joints[4].rotAxisZ), angles[4]), 
+                new Point3D(joints[4].rotPointX, joints[4].rotPointY, joints[4].rotPointZ));
             F5.Children.Add(T);
             F5.Children.Add(R);
             F5.Children.Add(F4);
