@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpClientDemo", "TcpClientD
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DTransformDemo", "3DTransformDemo\3DTransformDemo.csproj", "{C5014F71-D775-4A5D-91D4-7A7DC6B2371B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DCubeTransformDemo", "3DCubeTransformDemo\3DCubeTransformDemo.csproj", "{1E076754-7EFE-4264-81FB-C826AD62E112}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{C5014F71-D775-4A5D-91D4-7A7DC6B2371B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5014F71-D775-4A5D-91D4-7A7DC6B2371B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5014F71-D775-4A5D-91D4-7A7DC6B2371B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E076754-7EFE-4264-81FB-C826AD62E112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E076754-7EFE-4264-81FB-C826AD62E112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E076754-7EFE-4264-81FB-C826AD62E112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E076754-7EFE-4264-81FB-C826AD62E112}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
