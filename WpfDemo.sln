@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "3DCubeTransformDemo", "3DCu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRobot", "WpfRobot\WpfRobot.csproj", "{93020530-3581-4B5B-ACC3-923835ADFFFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StitchImage", "StitchImage\StitchImage.csproj", "{F973E78D-F0C6-4B01-96AE-E4527524B2C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -149,6 +151,14 @@ Global
 		{93020530-3581-4B5B-ACC3-923835ADFFFE}.Release|Any CPU.ActiveCfg = Release|x86
 		{93020530-3581-4B5B-ACC3-923835ADFFFE}.Release|x86.ActiveCfg = Release|x86
 		{93020530-3581-4B5B-ACC3-923835ADFFFE}.Release|x86.Build.0 = Release|x86
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Debug|x86.Build.0 = Debug|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|x86.ActiveCfg = Release|Any CPU
+		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
