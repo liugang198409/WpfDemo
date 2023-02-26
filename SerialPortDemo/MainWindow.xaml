@@ -1,0 +1,39 @@
+﻿<Window x:Class="SerialPortDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SerialPortDemo"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="4*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" HorizontalAlignment="Center" Orientation="Horizontal">
+            <TextBlock Text="串口COM1" VerticalAlignment="Center" FontSize="20" FontWeight="Bold" Margin="0 0 10 0 "/>
+            <Button x:Name="BtConnect" Content="建立连接" Width="75" Height="50" Click="BtConnect_Click" Margin="0 0 5 0"/>
+            <Button x:Name="BtBreak" Content="断开连接" Width="75" Height="50" Click="BtBreak_Click" Margin="5 0 0 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <CheckBox x:Name="CB_SendType" Content="HEX发送" Margin="0 20 0 0"/>
+            <TextBox x:Name="TxSend" Height="120" Width="600" Text="TextBox" Margin="10 5 0 5"/>
+            <Button x:Name="BtTxSend" Content="发送消息"  Width="75" Height="120" Click="BtTxSend_Click" Margin="10 0 0 0"/>
+        </StackPanel>
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <CheckBox x:Name="CB_ReceType" Content="HEX接收" Margin="0 20 0 0" />
+            <TextBox x:Name="TxRece" Text="TextBlock" Height="120" Width="600" Margin="10 5 0 5" />
+            <Button x:Name="BtClearTxRece" Content="清空接收"  Width="75" Height="90" Click="BtClearTxRece_Click" Margin="10 0 0 0"/>
+        </StackPanel>
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <TextBlock Text="  本地连接号：" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Left" />
+            <TextBlock x:Name="T_Data" Text="1" VerticalAlignment="Bottom" Height="30" HorizontalAlignment="Left" />
+        </StackPanel>
+        
+        
+    </Grid>
+</Window>

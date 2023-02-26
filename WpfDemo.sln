@@ -33,6 +33,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfRobot", "WpfRobot\WpfRob
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StitchImage", "StitchImage\StitchImage.csproj", "{F973E78D-F0C6-4B01-96AE-E4527524B2C2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialPortDemo", "SerialPortDemo\SerialPortDemo.csproj", "{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +161,14 @@ Global
 		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|x86.ActiveCfg = Release|Any CPU
 		{F973E78D-F0C6-4B01-96AE-E4527524B2C2}.Release|x86.Build.0 = Release|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Debug|x86.Build.0 = Debug|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Release|x86.ActiveCfg = Release|Any CPU
+		{F4C9C739-E3B1-4D7F-AD00-696A86962DB6}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
