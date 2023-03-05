@@ -1,0 +1,31 @@
+﻿<Window x:Class="ModbusTcpDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ModbusTcpDemo"
+        mc:Ignorable="d"
+        Title="ModBus示例" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="320"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center">
+            <TextBox x:Name="TextReceiveData" Text="读取内容" IsReadOnly="True" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Center" Width="700" Height="300" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" Margin="0 10 0 10"/>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Label Content="IP地址:" VerticalContentAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="TextIpAddress" Text="127.0.0.1" Height="30" Width="100" FontSize="20" HorizontalContentAlignment="Center"/>
+            <Label Content="端口:" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="TextPort" Text="502" Height="30" Width="50" FontSize="20" HorizontalContentAlignment="Center"/>
+            <Label Content="从站地址:" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="TextSlaveAddress" Text="1" Height="30" Width="50" FontSize="20" HorizontalContentAlignment="Center"/>
+            <Label Content="起始地址:" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="TextStartAddress" Text="0" Height="30" Width="50" FontSize="20" HorizontalContentAlignment="Center"/>
+            <Label Content="读取个数:" VerticalAlignment="Center" FontWeight="Bold"/>
+            <TextBox x:Name="TextTotalSize" Text="1" Height="30" Width="50" FontSize="20" HorizontalContentAlignment="Center"/>
+            <Button x:Name="BtnConnectAndStart" Content="连接并启动" FontWeight="Bold"  Height="30" Width="80" Margin="10 0 0 0" Click="ConnectAndStartRetriveData"/>
+        </StackPanel>
+    </Grid>
+</Window>
