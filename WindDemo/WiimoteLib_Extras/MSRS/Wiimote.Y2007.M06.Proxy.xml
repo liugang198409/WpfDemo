@@ -1,0 +1,646 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wiimote.Y2007.M06.Proxy</name>
+    </assembly>
+    <members>
+        <member name="M:WiimoteLib.Proxy.WiimoteState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current WiimoteState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.WiimoteState.Clone">
+             <summary>
+            Clones WiimoteState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.WiimoteState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current WiimoteState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.WiimoteState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes WiimoteState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized WiimoteState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelCalibrationInfo.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current AccelCalibrationInfo to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelCalibrationInfo.Clone">
+             <summary>
+            Clones AccelCalibrationInfo
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelCalibrationInfo.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current AccelCalibrationInfo to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelCalibrationInfo.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes AccelCalibrationInfo
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized AccelCalibrationInfo</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current AccelState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelState.Clone">
+             <summary>
+            Clones AccelState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current AccelState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.AccelState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes AccelState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized AccelState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current Point3 to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3.Clone">
+             <summary>
+            Clones Point3
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current Point3 to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes Point3
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized Point3</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3F.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current Point3F to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3F.Clone">
+             <summary>
+            Clones Point3F
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3F.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current Point3F to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point3F.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes Point3F
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized Point3F</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ButtonState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ButtonState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ButtonState.Clone">
+             <summary>
+            Clones ButtonState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ButtonState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ButtonState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ButtonState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ButtonState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ButtonState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current IRState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRState.Clone">
+             <summary>
+            Clones IRState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current IRState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes IRState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized IRState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRSensor.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current IRSensor to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRSensor.Clone">
+             <summary>
+            Clones IRSensor
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRSensor.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current IRSensor to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.IRSensor.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes IRSensor
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized IRSensor</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current Point to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point.Clone">
+             <summary>
+            Clones Point
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current Point to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Point.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes Point
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized Point</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.PointF.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current PointF to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.PointF.Clone">
+             <summary>
+            Clones PointF
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.PointF.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current PointF to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.PointF.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes PointF
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized PointF</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current NunchukState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukState.Clone">
+             <summary>
+            Clones NunchukState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current NunchukState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes NunchukState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized NunchukState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukCalibrationInfo.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current NunchukCalibrationInfo to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukCalibrationInfo.Clone">
+             <summary>
+            Clones NunchukCalibrationInfo
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukCalibrationInfo.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current NunchukCalibrationInfo to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.NunchukCalibrationInfo.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes NunchukCalibrationInfo
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized NunchukCalibrationInfo</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ClassicControllerState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerState.Clone">
+             <summary>
+            Clones ClassicControllerState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ClassicControllerState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ClassicControllerState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ClassicControllerState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerCalibrationInfo.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ClassicControllerCalibrationInfo to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerCalibrationInfo.Clone">
+             <summary>
+            Clones ClassicControllerCalibrationInfo
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerCalibrationInfo.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ClassicControllerCalibrationInfo to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerCalibrationInfo.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ClassicControllerCalibrationInfo
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ClassicControllerCalibrationInfo</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerButtonState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current ClassicControllerButtonState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerButtonState.Clone">
+             <summary>
+            Clones ClassicControllerButtonState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerButtonState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current ClassicControllerButtonState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.ClassicControllerButtonState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes ClassicControllerButtonState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized ClassicControllerButtonState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current GuitarState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarState.Clone">
+             <summary>
+            Clones GuitarState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current GuitarState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes GuitarState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized GuitarState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarButtonState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current GuitarButtonState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarButtonState.Clone">
+             <summary>
+            Clones GuitarButtonState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarButtonState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current GuitarButtonState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarButtonState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes GuitarButtonState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized GuitarButtonState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarFretButtonState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current GuitarFretButtonState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarFretButtonState.Clone">
+             <summary>
+            Clones GuitarFretButtonState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarFretButtonState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current GuitarFretButtonState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.GuitarFretButtonState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes GuitarFretButtonState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized GuitarFretButtonState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.DrumsState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current DrumsState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.DrumsState.Clone">
+             <summary>
+            Clones DrumsState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.DrumsState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current DrumsState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.DrumsState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes DrumsState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized DrumsState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.LEDState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current LEDState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.LEDState.Clone">
+             <summary>
+            Clones LEDState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.LEDState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current LEDState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.LEDState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes LEDState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized LEDState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.RumbleRequest.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current RumbleRequest to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.RumbleRequest.Clone">
+             <summary>
+            Clones RumbleRequest
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.RumbleRequest.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current RumbleRequest to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.RumbleRequest.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes RumbleRequest
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized RumbleRequest</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardState.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current BalanceBoardState to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardState.Clone">
+             <summary>
+            Clones BalanceBoardState
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardState.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current BalanceBoardState to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardState.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes BalanceBoardState
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized BalanceBoardState</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardCalibrationInfo.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current BalanceBoardCalibrationInfo to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardCalibrationInfo.Clone">
+             <summary>
+            Clones BalanceBoardCalibrationInfo
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardCalibrationInfo.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current BalanceBoardCalibrationInfo to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardCalibrationInfo.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes BalanceBoardCalibrationInfo
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized BalanceBoardCalibrationInfo</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensors.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current BalanceBoardSensors to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensors.Clone">
+             <summary>
+            Clones BalanceBoardSensors
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensors.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current BalanceBoardSensors to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensors.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes BalanceBoardSensors
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized BalanceBoardSensors</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensorsF.CopyTo(Microsoft.Dss.Core.IDssSerializable)">
+             <summary>
+            Copies the data member values of the current BalanceBoardSensorsF to the specified target object
+            </summary>
+            <param name="target">target object (must be an instance of)</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensorsF.Clone">
+             <summary>
+            Clones BalanceBoardSensorsF
+            </summary>
+            <returns>cloned value</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensorsF.Serialize(System.IO.BinaryWriter)">
+             <summary>
+            Serializes the data member values of the current BalanceBoardSensorsF to the specified writer
+            </summary>
+            <param name="writer">the writer to which to serialize</param>
+        </member>
+        <member name="M:WiimoteLib.Proxy.BalanceBoardSensorsF.Deserialize(System.IO.BinaryReader)">
+             <summary>
+            Deserializes BalanceBoardSensorsF
+            </summary>
+            <param name="reader">the reader from which to deserialize</param>
+            <returns>deserialized BalanceBoardSensorsF</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,System.String,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="service">service path</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+        <member name="M:WiimoteLib.Proxy.Contract.CreateService(Microsoft.Dss.Services.Constructor.ConstructorPort,Microsoft.Dss.ServiceModel.Dssp.PartnerType[])">
+            <summary>Creates a new instance of the service.</summary>
+            <param name="constructorServicePort">Service constructor port</param>
+            <param name="partners">the partners of the service instance</param>
+            <returns>create service response port</returns>
+        </member>
+    </members>
+</doc>

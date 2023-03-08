@@ -51,7 +51,7 @@ namespace ModbusTcpDemo
             Modbus.Device.ModbusIpMaster master = Modbus.Device.ModbusIpMaster.CreateIp(tcpClient);
 
             //6. 启动线程去循环获取数据
-            Task.Run(()=> {
+            Task.Run(() => {
                 while (true)
                 {
                     ushort[] ushortArray = master.ReadHoldingRegisters((byte)int.Parse(slaveAddress), (byte)int.Parse(startReadAddress), (byte)int.Parse(readTotalSize));
